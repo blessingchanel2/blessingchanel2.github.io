@@ -693,6 +693,11 @@ body{
     animation: showText .5s 1.5s linear forwards;
     opacity: 0;
 }
+.bar ion-icon{
+    font-size: 1.8em;
+    font-weight: bold;
+    font-size: white;
+}
 @keyframes showText {
     100%{
         opacity: 1;
@@ -891,6 +896,17 @@ body{
     line-height: 1.8;
     margin-bottom: 0px;
 }
+.layer a{
+    width: 30%;
+    padding: 4%;
+    border-radius: 15%;
+    background-color: #f06;
+}
+.layer a ion-icon{
+    font-size: 1.7em;
+    font-weight: bold;
+    color: white;
+}
 .layer img{
     width: 30px;
     height: 70px;
@@ -958,7 +974,7 @@ body{
     transform: scale(1.01) translateY(-5px);
     color: #f06;
 }
-.contact-icons img {
+.contact-icons img, .contact-icons ion-icon  {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -972,7 +988,7 @@ body{
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
 }
-.contact-icons img:hover{
+.contact-icons img:hover, .contact-icons ion-icon:hover{{
     background: #f06;
     border: 2px solid #f06;
     box-shadow: 0 0 20px #f06;
