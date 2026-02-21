@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="graphic.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html#home" style="--i:1;">Home</a></li>
+                <li><a href="index.html#about" style="--i:2;">About</a></li>
+                <li><a href="index.html#skills" style="--i:4;">Skills</a></li>
+                <li><a href="index.html#portfolio" style="--i:5;">Portfolio</a></li>
+                <li><a href="index.html/#contact" style="--i:6;">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="menuBtn" onclick=showsidebar()>
+            <img src="icons/iconmonstr-menu-right-lined-240.png">
+        </button>
+        <aside class="sidebar">
+    
+            <nav class="navb">
+                <button class="cancelbtn" onclick="hidesidebar()">
+                    <img src="icons/iconmonstr-x-mark-lined-240.png">
+                </button><br><br><br><br>
+                <a href="index.html#home" style="--i:1;">Home</a>
+                <a href="index.html#about" style="--i:2;">About</a>
+                <a href="index.html#skills" style="--i:4;">Skills</a>
+                <a href="index.html#portfolio" style="--i:5;">Portfolio</a>
+                <a href="index.html#contact" style="--i:6;">Contact</a>
+            </nav>
+        </aside>
+    </header>
+
+    <div class="projects">
+         <div class="design-ui">
+              <h1>Design UI with FIGMA</h1>
+              <div class="content">
+                  <a href="images/Screen Shot 2026-02-21 at 3.33.49 AM.png"><img src="images/Screen Shot 2026-02-21 at 3.33.49 AM.png" alt=""></a>
+                  <a href="images/Screen Shot 2026-02-21 at 3.48.57 AM.png"><img src="images/Screen Shot 2026-02-21 at 3.48.57 AM.png" alt=""></a>
+                  <a href="images/Screen Shot 2026-02-21 at 3.49.05 AM.png"><img src="images/Screen Shot 2026-02-21 at 3.49.05 AM.png" alt=""></a>
+                  <a href="images/Screen Shot 2026-02-21 at 3.51.56 AM.png"><img src="images/Screen Shot 2026-02-21 at 3.51.56 AM.png" alt=""></a>
+                  <a href="images/Screen Shot 2026-02-21 at 3.52.09 AM.png"><img src="images/Screen Shot 2026-02-21 at 3.52.09 AM.png" alt=""></a>
+                  <a href="images/Screen Shot 2026-02-21 at 3.52.23 AM.png"><img src="images/Screen Shot 2026-02-21 at 3.52.23 AM.png" alt=""></a>
+              </div>
+         </div><br><br><br>
+         <div class="design-ux">
+            <h1>Design UX with FIGMA</h1>
+            <div class="content">
+                <video  controls>
+                    <source src="video/myvideo.m4v" type="video/mp4">
+                </video>
+                <video  controls>
+                    <source src="video/myvideo2.m4v" type="video/mp4">
+                </video>
+                <video controls>
+                    <source src="video/myvideo3.m4v" type="video/mp4">
+                </video>
+            </div>
+         </div>
+    </div>
+
+
+    <div class="last-text">
+        <p>Developed by Kuate Mokam Blessing Chanel 2025</p>
+        <a href="#" class="top"><img src="icons/iconmonstr-arrow-up-circle-filled-240.png"></a>
+    </div>
+    <script src="portfolio.js"></script>
+</body>
+</html>
