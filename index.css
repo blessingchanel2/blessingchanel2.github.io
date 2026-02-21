@@ -27,6 +27,8 @@ body{
    
     
 }
+
+/*HEADER */
 .header {
     position: fixed;
     top: 0;
@@ -161,6 +163,8 @@ body{
     -webkit-background-clip: text;
 
 }
+
+/* HOME */
 .home{
     position: relative;
     width: 100% !important;
@@ -430,6 +434,7 @@ body{
      }
 }
 
+/* ABOUT */
 .about-container{
     padding: 50px;
     display: flex;
@@ -493,6 +498,12 @@ body{
 
 
 }
+.info-item a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}    
+    
 .info-item i{
     width: 20px;
 }
