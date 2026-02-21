@@ -1294,7 +1294,7 @@ body{
        
     }
     .about-container{
-        margin-left: 30px;
+        margin-left: 10px;
     }
    .about-content p{
      width: 87%;
@@ -1353,9 +1353,7 @@ body{
     .portfolio-content{
         margin-left: 8%;
     }
-         .about-container {
-             margin-left: 35px;
-         }
+      
     
          .about-content p {
              width: 85%;
