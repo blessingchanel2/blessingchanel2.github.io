@@ -1294,10 +1294,10 @@ body{
        
     }
     .about-container{
-        margin-left: 10px;
+        margin-left: -0px;
     }
    .about-content p{
-     width: 87%;
+     width: 95%;
    }
 
 }
