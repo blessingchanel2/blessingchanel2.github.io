@@ -1293,40 +1293,35 @@ body{
     .navb .cancelbtn{
        
     }
-        .layer h5{
-    color: white;
-     font-weight: bolder;
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-    margin-top: -100px;
+      .about-container{
+        margin-left: -5px;
+    }
+   .about-content p{
+     width: 95%;
+   }
+    .layer h5{
+   
+    font-size: 1.6rem;
+   
 }
 .layer p{
-    color: white;
-    font-weight: 800;
-    font-size: 1.3rem;
+   
+    font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 0px;
 }
 .layer a{
     width: 20%;
     padding: 3%;
-    border-radius: 13%;
+    border-radius: 10%;
     background-color: #f06;
 }
 .layer a ion-icon{
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bold;
     color: white;
 }
-    .about-container{
-        margin-left: -0px;
-    }
-   .about-content p{
-     width: 95%;
-   }
 
-}
 @media screen and (max-width: 350px) {
    
 
@@ -1369,10 +1364,10 @@ body{
        margin-left: -55px;
    }
    .layer h5{
-    font-size: 1.7em;
+    font-size: 1.5em;
    }
    .layer p{
-    font-size: 1.1em;
+    font-size: .8em;
    }
 }
 @media screen and (max-width: 320px){
