@@ -43,3 +43,13 @@ body {
     align-items: center;
     margin-top: 12%;
 }
+@media screen and (max-width: 900px) {
+   .projects {
+    margin-top: 25%;
+   }
+}   
+@media screen and (max-width: 400px) {
+    .projects {
+        margin-top: 35%;
+    }
+}
