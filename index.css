@@ -1293,6 +1293,32 @@ body{
     .navb .cancelbtn{
        
     }
+        .layer h5{
+    color: white;
+     font-weight: bolder;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: -100px;
+}
+.layer p{
+    color: white;
+    font-weight: 800;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+.layer a{
+    width: 20%;
+    padding: 3%;
+    border-radius: 13%;
+    background-color: #f06;
+}
+.layer a ion-icon{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
     .about-container{
         margin-left: -0px;
     }
