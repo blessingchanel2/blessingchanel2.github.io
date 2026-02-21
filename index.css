@@ -27,6 +27,8 @@ body{
    
     
 }
+
+/* HEADER SECTION */
 .header {
     position: fixed;
     top: 0;
@@ -161,6 +163,8 @@ body{
     -webkit-background-clip: text;
 
 }
+
+/* HOME SECTION */
 .home{
     position: relative;
     width: 100% !important;
@@ -430,6 +434,7 @@ body{
      }
 }
 
+/* ABOUT SECTION */
 .about-container{
     padding: 50px;
     display: flex;
@@ -627,6 +632,9 @@ body{
 .progress-line.indesign span {
     width: 10%;
 }
+.progress-line.git span {
+    width: 10%;
+}
 .progress-line span::after{
     position: absolute;
     padding: 1px 8px;
@@ -666,6 +674,9 @@ body{
     content: "15%";
 }
 .progress-line.indesign span::after {
+    content: "10%";
+}
+.progress-line.git span::after {
     content: "10%";
 }
 .progress-line span::before{
