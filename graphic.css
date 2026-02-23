@@ -7,6 +7,7 @@
 }
 .design-ux h3, design-ux h4{
     margin-left: 10px;
+    
 }    
     
     
@@ -76,6 +77,12 @@ h1{
        width: 100%;
        margin-left: -2%;
    }
+}
+@media screen and (max-width: 390px) {
+ .design-ux h3, design-ux h4{
+    margin-left: 10px;
+    width: 80%;
+}  
 }
 @media screen and (max-width: 330px) {
 .content a {
