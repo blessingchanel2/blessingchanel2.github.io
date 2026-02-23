@@ -994,7 +994,8 @@ body{
     color: #f06;
 }
 .contact-list a:hover{
-    color: #f06
+    color: #f06;
+    margin-right: 10px;
 }    
 .contact-list a img{
     display: inline-block;
