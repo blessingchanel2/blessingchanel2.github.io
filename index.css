@@ -623,6 +623,15 @@ body{
 .progress-line.php span{
     width: 50%;
 }
+.progress-line.python span{
+    width: 20%;
+}
+.progress-line.wordpress span{
+    width: 75%;
+}
+.progress-line.excel span{
+    width: 15%;
+}
 .progress-line.mysql span{
     width: 50%;
 }
@@ -669,6 +678,15 @@ body{
 }
 .progress-line.bootstrap  span::after{
     content: "50%";
+}
+.progress-line.python span::after{
+    content: "20%";
+}
+.progress-line.excel span::after{
+    content: "15%";
+}
+.progress-line.wordpress  span::after{
+    content: "75%";
 }
 .progress-line.figma span::after {
     content: "75%";
@@ -925,7 +943,7 @@ body{
     transform: scale(1.1);
 }
 .row:hover .layer{
-    height: 97%;
+    height: 96%;
 }
 
 /*contact*/
@@ -968,6 +986,16 @@ body{
     color: white;
     display: flex;
 }
+.contact-list a ion-icon{
+    font-size: 1.3em;
+    color: white;
+}
+.contact-list a ion-icon:hover{
+    color: #f06;
+}
+.contact-list a:hover{
+    color: #f06
+}    
 .contact-list a img{
     display: inline-block;
     width: 50px;
