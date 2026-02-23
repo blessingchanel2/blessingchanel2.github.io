@@ -5,6 +5,11 @@
     flex-direction: column;
     margin-top: 10%;
 }
+.design-ux h3, design-ux h4{
+    margin-left: 10px;
+}    
+    
+    
 h1{
     display: flex;
     justify-content: center;
